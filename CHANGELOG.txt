@@ -1,3 +1,8 @@
+Version 1.1
+---------------
+- Added contributing guidelines.
+- Fixed typo in GitHub URL listed in README file.
+
 Version 1.0
 ---------------
 - Initial release.
