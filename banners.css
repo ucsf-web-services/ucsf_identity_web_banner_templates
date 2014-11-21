@@ -133,7 +133,7 @@ pre {
 }
 
 @media screen and (max-width:659px) {
-    .top-banner.logo, .top-bannlier.logo .inner, .top-banner.logo div.inner div {
+    .top-banner.logo, .top-banner.logo .inner, .top-banner.logo div.inner div {
         height: 30px;
     }
 
