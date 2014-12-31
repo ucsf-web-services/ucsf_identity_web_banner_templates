@@ -155,6 +155,10 @@ pre {
         padding-left: 87px;
     }
 
+    :root .top-banner.logo .inner {
+        background-size: 37px 18px;
+    }
+
     .top-banner div.inner div {
         height: 30px;
         padding: 8px 0 8px 30px;
