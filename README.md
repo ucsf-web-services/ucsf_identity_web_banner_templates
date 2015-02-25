@@ -8,7 +8,7 @@ Templates for website banners that are compliant with [UCSF Identity Standards](
 
 Download the [latest release](https://github.com/stopfstedt/ucsf_identity_web_banner_templates/releases) from GitHub.
 
-Add the `banner.css` file to your webroot and link it from within your markup.
+Add `banners.css`, `ucsf-logo-banner.png`, `ucsf-logo-banner.svg` and `ucsf-logo-banner-mobile.png` to your webroot and link it from within your markup. Please make sure that the CSS file and the image files are located in the same directory.
 
 ```html
 <link rel="stylesheet" type="text/css" href="path/to/your/banners.css">
