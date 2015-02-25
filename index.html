@@ -36,6 +36,30 @@
 
     <h1>UCSF Banner Navigation - Demo</h1>
 
+    <p>Use the controls below to alter the color, font and logo of the banner above.</p>
+
+    <form>
+        <label for="color-options">Color</label>
+        <select id="color-options" name="colors">
+            <option value="">Navy</option>
+            <option value="teal">Teal</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="orange">Orange</option>
+            <option value="purple">Purple</option>
+            <option value="red">Red</option>
+        </select>
+
+        <label for="font-options">Font</label>
+        <select id="font-options" name="fonts">
+            <option>Helvetica Neue</option>
+            <option value="arial">Arial</option>
+        </select>
+
+        <label for="logo-enabled">Logo</label>
+        <input type="checkbox" name="logo-checkbox" id="logo-enabled" checked="checked" />
+    </form>
+
     <pre><code class="html" id="code-snippet"></code></pre>
 
     <script>
