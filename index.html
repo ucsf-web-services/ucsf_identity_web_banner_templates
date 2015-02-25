@@ -15,7 +15,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-
 </head>
 <body>
     <div id="ucsf-banner-nav" class="logo">
@@ -37,10 +36,28 @@
 
     <h1>UCSF Banner Navigation - Demo</h1>
 
-    <pre id="code-snippet"><code class="html"></code></pre>
+    <pre><code class="html" id="code-snippet"></code></pre>
 
     <script>
-        hljs.initHighlightingOnLoad();
+        $(document).ready(function() {
+            var scratchpad = document.createElement("textarea");
+
+            // @link http://stackoverflow.com/a/9251169
+            var escapeMarkup = function(html) {
+                scratchpad.innerHTML = html;
+                return scratchpad.innerHTML;
+            };
+
+            var fillSnippetContainerWithBannerMarkup = function() {
+                var snippetContainer = document.getElementById("code-snippet");
+                var bannerContainer =  document.getElementById("ucsf-banner-nav");
+                snippetContainer.innerHTML = escapeMarkup(bannerContainer.outerHTML);
+                hljs.highlightBlock(snippetContainer);
+            };
+
+            fillSnippetContainerWithBannerMarkup();
+
+        });
     </script>
 </body>
 </html>
