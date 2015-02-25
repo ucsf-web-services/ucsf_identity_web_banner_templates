@@ -14,13 +14,13 @@ pre {
 }
 
 /* Layout */
-.top-banner, .top-banner div {
+#ucsf-banner-nav, #ucsf-banner-nav div {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.top-banner {
+#ucsf-banner-nav {
     background: #052049;
     height: 32px;
     font-family: "Helvetica Neue", "arial", sans-serif;
@@ -29,48 +29,48 @@ pre {
     width: 100%;
 }
 
-.top-banner .inner {
+#ucsf-banner-nav .inner {
     margin: 0 auto;
     width: 1230px;
 }
 
-.top-banner div.inner div {
+#ucsf-banner-nav div.inner div {
     float: left;
     padding: 8px 0 7px 30px;
     text-align: left;
 }
 
-.top-banner.logo div.inner div {
+#ucsf-banner-nav.logo div.inner div {
     padding: 13px 0 13px 0;
 }
 
-.top-banner.logo,.top-banner.logo .inner,.top-banner.logo div.inner div {
+#ucsf-banner-nav.logo,#ucsf-banner-nav.logo .inner,#ucsf-banner-nav.logo div.inner div {
     height: 40px;
 }
 
-.top-banner div.inner div.nav {
+#ucsf-banner-nav div.inner div.nav {
     float: right;
     padding-right: 16px;
     text-align: right;
 }
 
-.top-banner ul, .top-banner li {
+#ucsf-banner-nav ul, #ucsf-banner-nav li {
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-.top-banner a {
+#ucsf-banner-nav a {
     color: #ffffff;
     display: inline;
     text-decoration: none;
 }
 
-.top-banner a:hover {
+#ucsf-banner-nav a:hover {
     text-decoration: underline;
 }
 
-.top-banner.logo .inner {
+#ucsf-banner-nav.logo .inner {
     height: 40px;
     background: url("ucsf-logo-banner.png") 30px 50% no-repeat;
     padding-left: 97px;
@@ -80,96 +80,96 @@ pre {
   * Browser-hack, targets everything but IE8 and below.
   * @link http://browserhacks.com/#hack-1aaa2cce9e371d212109d5b1b8229ef6
   */
-:root .top-banner.logo .inner {
+:root #ucsf-banner-nav.logo .inner {
     background: url("ucsf-logo-banner.svg") 30px 50% no-repeat;
     background-size: 45px 22px;
 }
 
-.top-banner-menu a {
+#ucsf-banner-nav-menu a {
     padding: 0 14px;
 }
 
 /* Variations */
-.top-banner.arial {
+#ucsf-banner-nav.arial {
     font-family: arial,sans-serif;
 }
 
-.top-banner.teal {
+#ucsf-banner-nav.teal {
     background: #18a3ac;
 }
 
-.top-banner.green {
+#ucsf-banner-nav.green {
     background: #90bd31;
 }
 
-.top-banner.blue {
+#ucsf-banner-nav.blue {
     background: #178ccb;
 }
 
-.top-banner.orange {
+#ucsf-banner-nav.orange {
     background: #f48024;
 }
 
-.top-banner.grey {
+#ucsf-banner-nav.grey {
     background: #b4b9bf;
 }
 
-.top-banner.purple {
+#ucsf-banner-nav.purple {
     background: #716fb2;
 }
 
-.top-banner.red {
+#ucsf-banner-nav.red {
     background: #ec1848;
 }
 
-.top-banner.yellow {
+#ucsf-banner-nav.yellow {
     background: #ffdd00;
 }
 
-.top-banner.white {
+#ucsf-banner-nav.white {
     background: #ffffff;
 }
 
-.top-banner.yellow a,.top-banner.white a {
+#ucsf-banner-nav.yellow a,#ucsf-banner-nav.white a {
     color: #000000;
 }
 
 /* Responsive */
 @media screen and (min-width:660px) and (max-width:1229px) {
-    .top-banner .inner {
+    #ucsf-banner-nav .inner {
         width: 100%;
     };
 }
 
 @media screen and (max-width:659px) {
-    .top-banner.logo, .top-banner.logo .inner, .top-banner.logo div.inner div {
+    #ucsf-banner-nav.logo, #ucsf-banner-nav.logo .inner, #ucsf-banner-nav.logo div.inner div {
         height: 30px;
     }
 
-    .top-banner .inner {
+    #ucsf-banner-nav .inner {
         width: 100%;
     }
 
-    .top-banner.logo .inner {
+    #ucsf-banner-nav.logo .inner {
         background: url("ucsf-logo-banner-mobile.png") 30px 50% no-repeat;
         padding-left: 87px;
     }
 
-    :root .top-banner.logo .inner {
+    :root #ucsf-banner-nav.logo .inner {
         background-size: 37px 18px;
     }
 
-    .top-banner div.inner div {
+    #ucsf-banner-nav div.inner div {
         height: 30px;
         padding: 8px 0 8px 30px;
         width: 100%;
     }
 
-    .top-banner.logo div.inner div {
+    #ucsf-banner-nav.logo div.inner div {
         padding: 8px 0 8px 0;
     }
 
-    .top-banner .logo span,.top-banner div.inner div.nav {
+    #ucsf-banner-nav .logo span,#ucsf-banner-nav div.inner div.nav {
         display: none;
     };
 }
