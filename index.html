@@ -2,8 +2,16 @@
 <head>
     <title>UCSF Banners</title>
     <style type="text/css" media="all">
-        @import url("banners.css");
+        body {
+            background: #fff;
+            padding: 0;
+            margin: 0;
+        }
     </style>
+    <link rel="stylesheet" type="text/css" href="banners.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 
@@ -13,12 +21,9 @@
 
     <h3>Helvetica Neue</h3>
 
-
     <h4>Navy (default)</h4>
 
-    <pre>&lt;div class="top-banner logo"&gt;</pre>
-
-    <div class="top-banner logo">
+    <div id="ucsf-banner-nav" class="logo">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -26,7 +31,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -34,13 +39,28 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="logo"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
 
     <h4>Teal</h4>
 
-    <pre>&lt;div class="top-banner logo teal"&gt;</pre>
-
-    <div class="top-banner logo teal">
+    <div id="ucsf-banner-nav" class="logo teal">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -48,7 +68,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -56,12 +76,28 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="logo teal"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
 
     <h4>Green</h4>
 
-    <pre>&lt;div class="top-banner logo green"&gt;</pre>
-
-    <div class="top-banner logo green">
+    <div id="ucsf-banner-nav" class="logo green">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -69,7 +105,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -77,12 +113,28 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="logo green"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
 
     <h4>Blue</h4>
 
-    <pre>&lt;div class="top-banner logo blue"&gt;</pre>
-
-    <div class="top-banner logo blue">
+    <div id="ucsf-banner-nav" class="logo blue">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -90,7 +142,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -98,12 +150,28 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="logo blue"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
 
     <h4>Orange</h4>
 
-    <pre>&lt;div class="top-banner logo orange"&gt;</pre>
-
-    <div class="top-banner logo orange">
+    <div id="ucsf-banner-nav" class="logo orange">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -111,7 +179,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -119,12 +187,28 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="logo orange"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
 
     <h4>Purple</h4>
 
-    <pre>&lt;div class="top-banner logo purple"&gt;</pre>
-
-    <div class="top-banner logo purple">
+    <div id="ucsf-banner-nav" class="logo purple">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -132,7 +216,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -140,12 +224,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="logo purple"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Red</h4>
 
-    <pre>&lt;div class="top-banner logo red"&gt;</pre>
-
-    <div class="top-banner logo red">
+    <div id="ucsf-banner-nav" class="logo red">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -153,7 +252,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -161,14 +260,30 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="logo red"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
 
     <h3>Arial</h3>
 
     <h4>Navy (default)</h4>
 
-    <pre>&lt;div class="top-banner arial logo"&gt;</pre>
-
-    <div class="top-banner arial logo">
+    <div id="ucsf-banner-nav" class="arial logo">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -176,7 +291,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -185,12 +300,26 @@
         </div>
     </div>
 
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial logo"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Teal</h4>
 
-    <pre>&lt;div class="top-banner arial logo teal"&gt;</pre>
-
-    <div class="top-banner arial logo teal">
+    <div id="ucsf-banner-nav" class="arial logo teal">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -198,7 +327,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -206,12 +335,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial logo teal"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Green</h4>
 
-    <pre>&lt;div class="top-banner arial logo green"&gt;</pre>
-
-    <div class="top-banner arial logo green">
+    <div id="ucsf-banner-nav" class="arial logo green">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -219,7 +363,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -227,12 +371,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial logo green"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Blue</h4>
 
-    <pre>&lt;div class="top-banner arial logo blue"&gt;</pre>
-
-    <div class="top-banner arial logo blue">
+    <div id="ucsf-banner-nav" class="arial logo blue">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -240,7 +399,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -248,12 +407,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial logo blue"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Orange</h4>
 
-    <pre>&lt;div class="top-banner arial logo orange"&gt;</pre>
-
-    <div class="top-banner arial logo orange">
+    <div id="ucsf-banner-nav" class="arial logo orange">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -261,7 +435,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -269,12 +443,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial logo orange"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Purple</h4>
 
-    <pre>&lt;div class="top-banner arial logo purple"&gt;</pre>
-
-    <div class="top-banner arial logo purple">
+    <div id="ucsf-banner-nav" class="arial logo purple">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -282,7 +471,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -290,12 +479,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial logo purple"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Red</h4>
 
-    <pre>&lt;div class="top-banner arial logo red"&gt;</pre>
-
-    <div class="top-banner arial logo red">
+    <div id="ucsf-banner-nav" class="arial logo red">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -303,7 +507,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -311,6 +515,23 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial logo red"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h2>Logotype Only</h2>
 
@@ -318,9 +539,7 @@
 
     <h4>Navy (default)</h4>
 
-    <pre>&lt;div class="top-banner"&gt;</pre>
-
-    <div class="top-banner">
+    <div id="ucsf-banner-nav">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -328,7 +547,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -336,12 +555,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Teal</h4>
 
-    <pre>&lt;div class="top-banner teal"&gt;</pre>
-
-    <div class="top-banner teal">
+    <div id="ucsf-banner-nav" class="teal">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -349,7 +583,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -357,12 +591,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="teal"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Green</h4>
 
-    <pre>&lt;div class="top-banner green"&gt;</pre>
-
-    <div class="top-banner green">
+    <div id="ucsf-banner-nav" class="green">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -370,7 +619,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -378,12 +627,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="green"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Blue</h4>
 
-    <pre>&lt;div class="top-banner blue"&gt;</pre>
-
-    <div class="top-banner blue">
+    <div id="ucsf-banner-nav" class="blue">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -391,7 +655,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -399,12 +663,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="blue"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Orange</h4>
 
-    <pre>&lt;div class="top-banner orange"&gt;</pre>
-
-    <div class="top-banner orange">
+    <div id="ucsf-banner-nav" class="orange">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -412,7 +691,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -420,12 +699,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="orange"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Purple</h4>
 
-    <pre>&lt;div class="top-banner purple"&gt;</pre>
-
-    <div class="top-banner purple">
+    <div id="ucsf-banner-nav" class="purple">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -433,7 +727,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -441,12 +735,28 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="purple"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
 
     <h4>Red</h4>
 
-    <pre>&lt;div class="top-red"&gt;</pre>
-
-    <div class="top-banner red">
+    <div id="ucsf-banner-nav" class="red">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -454,7 +764,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -462,14 +772,29 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="red"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h3>Arial</h3>
 
     <h4>Navy (default)</h4>
 
-    <pre>&lt;div class="top-banner arial"&gt;</pre>
-
-    <div class="top-banner arial">
+    <div id="ucsf-banner-nav" class="arial">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -477,7 +802,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -485,12 +810,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Teal</h4>
 
-    <pre>&lt;div class="top-banner arial teal"&gt;</pre>
-
-    <div class="top-banner arial teal">
+    <div id="ucsf-banner-nav" class="arial teal">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -498,7 +838,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -506,12 +846,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial teal"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Green</h4>
 
-    <pre>&lt;div class="top-banner arial green"&gt;</pre>
-
-    <div class="top-banner arial green">
+    <div id="ucsf-banner-nav" class="arial green">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -519,7 +874,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -527,12 +882,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial green"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Blue</h4>
 
-    <pre>&lt;div class="top-banner arial blue"&gt;</pre>
-
-    <div class="top-banner arial blue">
+    <div id="ucsf-banner-nav" class="arial blue">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -540,7 +910,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -548,12 +918,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial blue"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Orange</h4>
 
-    <pre>&lt;div class="top-banner arial orange"&gt;</pre>
-
-    <div class="top-banner arial orange">
+    <div id="ucsf-banner-nav" class="arial orange">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -561,7 +946,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -569,12 +954,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial orange"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Purple</h4>
 
-    <pre>&lt;div class="top-banner arial purple"&gt;</pre>
-
-    <div class="top-banner arial purple">
+    <div id="ucsf-banner-nav" class="arial purple">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -582,7 +982,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -590,12 +990,27 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial purple"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
     <h4>Red</h4>
 
-    <pre>&lt;div class="top-banner arial red"&gt;</pre>
-
-    <div class="top-banner arial red">
+    <div id="ucsf-banner-nav" class="arial red">
         <div class="inner">
             <div>
                 <a class="logotype" href="http://www.ucsf.edu/">
@@ -603,7 +1018,7 @@
                 </a>
             </div>
             <div class="nav">
-                <ul class="top-banner-menu">
+                <ul>
                     <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
                     <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
                     <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
@@ -611,6 +1026,23 @@
             </div>
         </div>
     </div>
+
+    <pre><code class="html">&lt;div id="ucsf-banner-nav" class="arial red"&gt;
+    &lt;div class="inner"&gt;
+        &lt;div&gt;
+            &lt;a class="logotype" href="http://www.ucsf.edu/"&gt;
+                &lt;span&gt;University of California San Francisco&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="nav"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/about"&gt;About UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsf.edu/search"&gt;Search UCSF&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.ucsfhealth.org/"&gt;UCSF Medical Center&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
 </body>
 </html>
