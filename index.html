@@ -11,14 +11,26 @@
         }
     </style>
     <link rel="stylesheet" href="banners.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 </head>
 <body>
-<div id="ucsf-banner-nav" class="logo">
+<div id="top-header-region" class="logo">
+  <div class="top-header-container row">
+      <ul class="menu">
+        <li class="first"><a href="http://www.ucsf.edu">University of California San Francisco</a></li>
+        <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
+        <li><a href="http://www.ucsf.edu/search" title="">Search UCSF</a></li>
+        <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
+      </ul>
+  </div>
+</div>
+
+
+<!-- <div id="ucsf-banner-nav" class="logo">
     <div class="inner">
         <div>
             <a class="logotype" href="http://www.ucsf.edu/">
@@ -34,7 +46,7 @@
         </div>
     </div>
 </div>
-
+ -->
     <h1>UCSF Banner Navigation - Demo</h1>
 
     <p>Use these controls to alter the color, font and logo of the banner above.</p>
@@ -45,7 +57,7 @@
             <option value="">Navy</option>
             <option value="teal">Teal</option>
             <option value="green">Green</option>
-            <option value="blue">Blue</option>
+            <option value="light-blue">Blue</option>
             <option value="orange">Orange</option>
             <option value="purple">Purple</option>
             <option value="red">Red</option>
@@ -57,7 +69,7 @@
             <option value="arial">Arial</option>
         </select>
 
-        <label for="logo-enabled">Logo</label>
+        <label for="logo-enabled">No Logo</label>
         <input type="checkbox" name="logo-checkbox" id="logo-enabled" checked="checked" />
     </form>
 
@@ -75,12 +87,13 @@
             // @link http://stackoverflow.com/a/9251169
             var escapeMarkup = function(html) {
                 scratchpad.innerHTML = html;
+                console.log(scratchpad.innerHTML)
                 return scratchpad.innerHTML;
             };
 
             var fillSnippetContainerWithBannerMarkup = function() {
                 var snippetContainer = document.getElementById("code-snippet");
-                var bannerContainer =  document.getElementById("ucsf-banner-nav");
+                var bannerContainer =  document.getElementById("top-header-region");
                 snippetContainer.innerHTML = escapeMarkup(bannerContainer.outerHTML);
                 hljs.highlightBlock(snippetContainer);
             };
@@ -90,14 +103,13 @@
                 classes += $("#font-options option:selected").val();
                 classes += " " + $("#color-options option:selected").val();
                 if($("#logo-enabled").is(':checked')) {
-                    classes += " logo";
+                    classes += " no-logo";
                 }
-
                 classes = $.trim(classes);
                 if (classes) {
-                    $("#ucsf-banner-nav").removeClass().addClass(classes);
+                    $("#top-header-region").removeClass().addClass(classes);
                 } else {
-                    $("#ucsf-banner-nav").removeAttr('class');
+                    $("#top-header-region").removeAttr('class');
                 }
             };
 

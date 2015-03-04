@@ -158,3 +158,101 @@
         display: none;
     };
 }
+
+
+/* Shoestring Css */
+
+#top-header-region {
+  height: 40px;
+  overflow: hidden;
+  font-family: "Helvetica Neue", "arial", sans-serif;
+  background: #052049; }
+
+  /* line 4, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+  #top-header-region .top-header-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1230px; }
+    /* line 9, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+    #top-header-region .top-header-container ul.menu {
+      padding: 0;
+      margin: 0; }
+      /* line 12, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+      #top-header-region .top-header-container ul.menu li.first {
+        display: inline-block;
+        float: left;
+        padding: 11px 0px 12px 58px;
+        background: url("ucsf-logo-banner.png") no-repeat;
+        background-position: 0 35%;
+        background-position-x: 0;
+        background-position-y: 35%; }
+        @media (max-width: 600px) {
+          #top-header-region .top-header-container ul.menu li.first {
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden; } }
+      /* line 26, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+      #top-header-region .top-header-container ul.menu li {
+        display: inline-block;
+        float: right;
+        font-size: 14px;
+        padding: 12px 10px 12px; }
+        @media (max-width: 830px) {
+          #top-header-region .top-header-container ul.menu li {
+            display: none; } }
+        @media (max-width: 600px) {
+          #top-header-region .top-header-container ul.menu li {
+            display: none; } }
+        /* line 37, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+        #top-header-region .top-header-container ul.menu li a {
+          color: #fff; }
+
+/**
+  * Browser-hack, targets everything but IE8 and below.
+  * @link http://browserhacks.com/#hack-1aaa2cce9e371d212109d5b1b8229ef6
+  */
+/* line 50, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+:root #top-header-region .top-header-container ul.menu li.first {
+  background: url("ucsf-logo-banner.svg") no-repeat;
+  background-size: 45px 22px;
+  background-position-x: 0;
+  background-position-y: 35%;
+  background-position: 0 35%; }
+
+/* Hides background logo and brings text back */
+/* line 63, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+#top-header-region.no-logo .top-header-container ul.menu li.first {
+  background: none;
+  padding-left: 0;
+  text-indent: 0%; }
+
+/* Color classes for top header region */
+/* line 73, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+#top-header-region.blue {
+  background-color: #052049; }
+
+/* line 77, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+#top-header-region.light-blue {
+  background-color: #178CCB; }
+
+/* line 81, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+#top-header-region.orange {
+  background-color: #F48024; }
+
+/* line 85, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+#top-header-region.green {
+  background-color: #90BD31; }
+
+/* line 89, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+#top-header-region.teal {
+  background-color: #18A3AC; }
+
+/* line 93, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+#top-header-region.purple {
+  background-color: #716FB2; }
+
+/* line 97, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+#top-header-region.red {
+  background-color: #EC1848; }
