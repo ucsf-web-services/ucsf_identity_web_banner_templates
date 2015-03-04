@@ -41,7 +41,7 @@
 
 #ucsf-banner-nav ul, #ucsf-banner-nav li {
     display: inline;
-    margin: 0;
+    margin: 0 0 0 2em;
     padding: 0;
 }
 
