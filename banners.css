@@ -24,7 +24,7 @@
       #ucsf-banner-nav .top-header-container ul.menu li.first {
         display: inline-block;
         float: left;
-        padding: 11px 0px 12px 58px;
+        padding: 12px 0px 12px 58px;
         background: url("ucsf-logo-banner.png") no-repeat;
         background-position: 0 35%;
         background-position-x: 0;
@@ -97,4 +97,17 @@
 
 #ucsf-banner-nav.yellow a,#ucsf-banner-nav.white a {
     color: #000000;
+}
+
+:root #ucsf-banner-nav .top-header-container ul.menu li.first {
+    background: url("ucsf-logo-banner.svg") no-repeat;
+    background-size: 45px 22px;
+    background-position-x: 0;
+    background-position-y: 35%;
+    background-position: 0 35%;
+}
+
+
+:root #ucsf-banner-nav.no-logo .top-header-container ul.menu li.first {
+    background: none;
 }
