@@ -1,175 +1,113 @@
-body {
-    background: #fff;
-    padding: 0;
-    margin: 0;
-}
+#ucsf-banner-nav {
+  height: 40px;
+  overflow: hidden;
+  font-family: "Helvetica Neue", "arial", sans-serif;
+  background: #052049; }
+  #ucsf-banner-nav.no-logo .top-header-container ul.menu li.first {
+    background: none;
+    text-indent: 0%;
+    padding-left: 0;
+  }
 
-pre {
-    background: #fff;
-    border: 1px inset #ccc;
-    padding: 3px;
-    width: 300px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
+  /* line 4, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+  #ucsf-banner-nav .top-header-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1230px; }
+    /* line 9, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+    #ucsf-banner-nav .top-header-container ul.menu {
+      padding: 0;
+      margin: 0; }
+      /* line 12, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+      #ucsf-banner-nav .top-header-container ul.menu li.first {
+        display: inline-block;
+        float: left;
+        padding: 12px 0px 12px 58px;
+        background: url("ucsf-logo-banner.png") no-repeat;
+        background-position: 0 35%;
+        background-position-x: 0;
+        background-position-y: 35%; }
+        @media (max-width: 600px) {
+          #ucsf-banner-nav .top-header-container ul.menu li.first {
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden; } }
+      /* line 26, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+      #ucsf-banner-nav .top-header-container ul.menu li {
+        display: inline-block;
+        float: right;
+        font-size: 14px;
+        padding: 12px 10px 12px; }
+        @media (max-width: 830px) {
+          #ucsf-banner-nav .top-header-container ul.menu li {
+            display: none; } }
+        @media (max-width: 600px) {
+          #ucsf-banner-nav .top-header-container ul.menu li {
+            display: none; } }
+        /* line 37, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
+        #ucsf-banner-nav .top-header-container ul.menu li a {
+          text-decoration: none;
+          color: #fff; }
+        #ucsf-banner-nav .top-header-container ul.menu li a:hover {
+          text-decoration: underline;}
 
-/* Layout */
-.top-banner, .top-banner div {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+/* Colors */
 
-.top-banner {
-    background: #052049;
-    height: 32px;
-    font-family: "Helvetica Neue", "arial", sans-serif;
-    font-size: 14px;
-    text-align: center;
-    width: 100%;
-}
-
-.top-banner .inner {
-    margin: 0 auto;
-    width: 1230px;
-}
-
-.top-banner div.inner div {
-    float: left;
-    padding: 8px 0 7px 30px;
-    text-align: left;
-}
-
-.top-banner.logo div.inner div {
-    padding: 13px 0 13px 0;
-}
-
-.top-banner.logo,.top-banner.logo .inner,.top-banner.logo div.inner div {
-    height: 40px;
-}
-
-.top-banner div.inner div.nav {
-    float: right;
-    padding-right: 16px;
-    text-align: right;
-}
-
-.top-banner ul, .top-banner li {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-
-.top-banner a {
-    color: #ffffff;
-    display: inline;
-    text-decoration: none;
-}
-
-.top-banner a:hover {
-    text-decoration: underline;
-}
-
-.top-banner.logo .inner {
-    height: 40px;
-    background: url("ucsf-logo-banner.png") 30px 50% no-repeat;
-    padding-left: 97px;
-}
-
-/**
-  * Browser-hack, targets everything but IE8 and below.
-  * @link http://browserhacks.com/#hack-1aaa2cce9e371d212109d5b1b8229ef6
-  */
-:root .top-banner.logo .inner {
-    background: url("ucsf-logo-banner.svg") 30px 50% no-repeat;
-    background-size: 45px 22px;
-}
-
-.top-banner-menu a {
-    padding: 0 14px;
-}
-
-/* Variations */
-.top-banner.arial {
+#ucsf-banner-nav.arial {
     font-family: arial,sans-serif;
 }
 
-.top-banner.teal {
+#ucsf-banner-nav.teal {
     background: #18a3ac;
 }
 
-.top-banner.green {
+#ucsf-banner-nav.green {
     background: #90bd31;
 }
 
-.top-banner.blue {
+#ucsf-banner-nav.light-blue {
     background: #178ccb;
 }
 
-.top-banner.orange {
+#ucsf-banner-nav.orange {
     background: #f48024;
 }
 
-.top-banner.grey {
+#ucsf-banner-nav.grey {
     background: #b4b9bf;
 }
 
-.top-banner.purple {
+#ucsf-banner-nav.purple {
     background: #716fb2;
 }
 
-.top-banner.red {
+#ucsf-banner-nav.red {
     background: #ec1848;
 }
 
-.top-banner.yellow {
+#ucsf-banner-nav.yellow {
     background: #ffdd00;
 }
 
-.top-banner.white {
+#ucsf-banner-nav.white {
     background: #ffffff;
 }
 
-.top-banner.yellow a,.top-banner.white a {
+#ucsf-banner-nav.yellow a,#ucsf-banner-nav.white a {
     color: #000000;
 }
 
-/* Responsive */
-@media screen and (min-width:660px) and (max-width:1229px) {
-    .top-banner .inner {
-        width: 100%;
-    };
+:root #ucsf-banner-nav .top-header-container ul.menu li.first {
+    background: url("ucsf-logo-banner.svg") no-repeat;
+    background-size: 45px 22px;
+    background-position-x: 0;
+    background-position-y: 35%;
+    background-position: 0 35%;
 }
 
-@media screen and (max-width:659px) {
-    .top-banner.logo, .top-banner.logo .inner, .top-banner.logo div.inner div {
-        height: 30px;
-    }
 
-    .top-banner .inner {
-        width: 100%;
-    }
-
-    .top-banner.logo .inner {
-        background: url("ucsf-logo-banner-mobile.png") 30px 50% no-repeat;
-        padding-left: 87px;
-    }
-
-    :root .top-banner.logo .inner {
-        background-size: 37px 18px;
-    }
-
-    .top-banner div.inner div {
-        height: 30px;
-        padding: 8px 0 8px 30px;
-        width: 100%;
-    }
-
-    .top-banner.logo div.inner div {
-        padding: 8px 0 8px 0;
-    }
-
-    .top-banner .logo span,.top-banner div.inner div.nav {
-        display: none;
-    };
+:root #ucsf-banner-nav.no-logo .top-header-container ul.menu li.first {
+    background: none;
 }
