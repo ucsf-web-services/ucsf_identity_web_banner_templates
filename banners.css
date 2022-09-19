@@ -1,57 +1,79 @@
 #ucsf-banner-nav {
-  height: 40px;
-  overflow: hidden;
-  font-family: "Helvetica Neue", "arial", sans-serif;
-  background: #052049; }
-  #ucsf-banner-nav.no-logo .top-header-container ul.menu li.first {
-    background: none;
-    text-indent: 0%;
-    padding-left: 0;
-  }
+    height: 40px;
+    overflow: hidden;
+    font-family: "Helvetica Neue", "arial", sans-serif;
+    background: #052049;
+}
 
-  #ucsf-banner-nav .top-header-container {
+#ucsf-banner-nav.no-logo .top-header-container ul.menu li.first {
+    background: none;
+    text-indent: 0;
+    padding-left: 0;
+}
+
+#ucsf-banner-nav .top-header-container {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 1230px; }
-    #ucsf-banner-nav .top-header-container ul.menu {
-      padding: 0;
-      margin: 0; }
-      #ucsf-banner-nav .top-header-container ul.menu li.first {
-        display: inline-block;
-        float: left;
-        padding: 12px 0px 12px 58px;
-        background: url("ucsf-logo-banner.png") no-repeat;
-        background-position: 0 35%;
-        background-position-x: 0;
-        background-position-y: 35%; }
-        @media (max-width: 600px) {
-          #ucsf-banner-nav .top-header-container ul.menu li.first {
-            text-indent: 100%;
-            white-space: nowrap;
-            overflow: hidden; } }
-      #ucsf-banner-nav .top-header-container ul.menu li {
-        display: inline-block;
-        float: right;
-        font-size: 14px;
-        padding: 12px 10px 12px; }
-        @media (max-width: 830px) {
-          #ucsf-banner-nav .top-header-container ul.menu li {
-            display: none; } }
-        @media (max-width: 600px) {
-          #ucsf-banner-nav .top-header-container ul.menu li {
-            display: none; } }
-        #ucsf-banner-nav .top-header-container ul.menu li a {
-          text-decoration: none;
-          color: #fff; }
-        #ucsf-banner-nav .top-header-container ul.menu li a:hover {
-          text-decoration: underline;}
+    max-width: 1230px;
+}
+
+#ucsf-banner-nav .top-header-container ul.menu {
+    padding: 0;
+    margin: 0;
+}
+
+#ucsf-banner-nav .top-header-container ul.menu li.first {
+    display: inline-block;
+    float: left;
+    padding: 12px 0 12px 58px;
+    background: url("ucsf-logo-banner.png") no-repeat;
+    background-position: 0 35%;
+    background-position-x: 0;
+    background-position-y: 35%;
+}
+
+@media (max-width: 600px) {
+    #ucsf-banner-nav .top-header-container ul.menu li.first {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+#ucsf-banner-nav .top-header-container ul.menu li {
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    padding: 12px 10px 12px;
+}
+
+@media (max-width: 830px) {
+    #ucsf-banner-nav .top-header-container ul.menu li {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    #ucsf-banner-nav .top-header-container ul.menu li {
+        display: none;
+    }
+}
+
+#ucsf-banner-nav .top-header-container ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#ucsf-banner-nav .top-header-container ul.menu li a:hover {
+    text-decoration: underline;
+}
 
 /* Colors */
 
 #ucsf-banner-nav.arial {
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
 }
 
 #ucsf-banner-nav.teal {
@@ -70,7 +92,6 @@
     background: #716fb2;
 }
 
-
 #ucsf-banner-nav.yellow {
     background: #ffdd00;
 }
@@ -79,7 +100,7 @@
     background: #ffffff;
 }
 
-#ucsf-banner-nav.yellow a,#ucsf-banner-nav.white a {
+#ucsf-banner-nav.yellow a, #ucsf-banner-nav.white a {
     color: #000000;
 }
 
@@ -90,7 +111,6 @@
     background-position-y: 35%;
     background-position: 0 35%;
 }
-
 
 :root #ucsf-banner-nav.no-logo .top-header-container ul.menu li.first {
     background: none;
