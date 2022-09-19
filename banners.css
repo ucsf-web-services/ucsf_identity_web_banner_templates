@@ -9,18 +9,15 @@
     padding-left: 0;
   }
 
-  /* line 4, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
   #ucsf-banner-nav .top-header-container {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
     max-width: 1230px; }
-    /* line 9, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
     #ucsf-banner-nav .top-header-container ul.menu {
       padding: 0;
       margin: 0; }
-      /* line 12, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
       #ucsf-banner-nav .top-header-container ul.menu li.first {
         display: inline-block;
         float: left;
@@ -34,7 +31,6 @@
             text-indent: 100%;
             white-space: nowrap;
             overflow: hidden; } }
-      /* line 26, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
       #ucsf-banner-nav .top-header-container ul.menu li {
         display: inline-block;
         float: right;
@@ -46,7 +42,6 @@
         @media (max-width: 600px) {
           #ucsf-banner-nav .top-header-container ul.menu li {
             display: none; } }
-        /* line 37, /Users/richardbaker/git_repos/shoestring/src/assets/sass/ucsf/components/banner */
         #ucsf-banner-nav .top-header-container ul.menu li a {
           text-decoration: none;
           color: #fff; }
